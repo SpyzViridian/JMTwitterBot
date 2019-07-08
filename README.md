@@ -14,6 +14,6 @@ Para mantener un poco la coherencia, el bot no aprende palabra por palabra, si n
 
 Yo tengo - una casa - bonita
 
-Yo -tengo una - casa bonita
+Yo - tengo una - casa bonita
 
 Luego, un parámetro de coherencia (entre 0 y 1) determina cuánto respetará el bot dicha coherencia. Si está a 0, el bot elegirá las palabras una a una, y si está a 1, las elegirá puramente a pares. Este valor es útil cuando el bot ha aprendido poco: se elige un valor de coherencia bajo para que no copie los tuits tal cual. Una vez que ha aprendido muchos tuits diferentes, se puede aumentar este valor de coherencia para que tenga más sentido lo que escribe y no haga frases demasiado similares a las que ha aprendido.
